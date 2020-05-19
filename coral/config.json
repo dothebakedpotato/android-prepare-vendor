@@ -34,9 +34,13 @@
         "product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
         "product/framework/QtiTelephonyServicelibrary.jar",
         "product/framework/com.qualcomm.qti.uceservice-V2.1-java.jar",
-        "product/framework/qcrilhook.jar"
+        "product/framework/qcrilhook.jar",
+        "product/framework/qti-telephony-hidl-wrapper.jar",
+        "product/framework/qti-telephony-utils.jar"
       ],
       "product-other": [
+        "product/etc/permissions/qti_telephony_hidl_wrapper.xml",
+        "product/etc/permissions/qti_telephony_utils.xml",
         "product/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml",
         "product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml",
         "product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml",
